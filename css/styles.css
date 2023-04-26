@@ -1,0 +1,17 @@
+/* [class*="col"] {
+    padding: 1rem;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    color: #fff;
+} */
+
+.card-effect {
+    transition: all .65s ease-in;
+}
+
+.card-effect:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+    margin: 0;
+    padding: 0;
+}
